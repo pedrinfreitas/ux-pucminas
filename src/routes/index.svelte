@@ -127,7 +127,7 @@
           <a
             class="btn btn-primary"
             sveltekit:prefetch
-            href={`coletores/${item.id}`}
+            href="#"
             style="padding-right: 24px;padding-left: 24px;">Aceitar</a
           >
         </div>

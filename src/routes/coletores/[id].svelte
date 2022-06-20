@@ -68,7 +68,9 @@
           <p style="margin: 0;">{coletor.phone}</p>
         </div>
         <p style="margin: 8px 0;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tenho em casa uma boa quantidade de materiais recicláveis, entre eles
+          papelão, garrafas e latas de alumínio. Estarei em casa amanhã das
+          13:00 às 15:00.
         </p>
         <label>Depoimetos:</label>
         <div class="d-flex align-items-center c-depoimentos">
@@ -107,7 +109,7 @@
           <a
             class="btn btn-primary"
             sveltekit:prefetch
-            href={`coletores/${coletor.id}`}
+            href="#"
             style="padding-right: 24px;padding-left: 24px;">Aceitar</a
           >
         </div>

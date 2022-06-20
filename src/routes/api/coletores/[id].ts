@@ -11,7 +11,7 @@ export async function get({ params }) {
       name: "Luiz Silva",
       img: "/assets/img/avatar3.jpg",
       ratings: 4,
-      date: "09:00",
+      date: "13:00 - 15:00",
       distance: "5km",
       phone: "11 9 8765 4321",
     },

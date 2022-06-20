@@ -5,7 +5,7 @@ export async function get() {
       name: "Luiz Silva",
       img: "/assets/img/avatar3.jpg",
       ratings: 4,
-      date: "09:00",
+      date: "13:00 - 15:00",
       distance: "5km",
     },
     {
