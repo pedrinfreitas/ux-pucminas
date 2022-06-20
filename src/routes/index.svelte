@@ -12,7 +12,7 @@
 </script>
 
 <script lang="ts">
-  import Header from "$lib/header.svelte";
+  import Header from "$lib/Header.svelte";
   export let coletores: any;
 
   let search = "";
