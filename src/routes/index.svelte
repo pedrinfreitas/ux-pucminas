@@ -1,6 +1,4 @@
 <script context="module" lang="ts">
-  import Header from "$lib/header.svelte";
-
   export const load = async ({ fetch }) => {
     const res = await fetch(`/api/coletores`);
     const coletores = await res.json();
@@ -14,6 +12,7 @@
 </script>
 
 <script lang="ts">
+  import Header from "$lib/header.svelte";
   export let coletores: any;
 
   let search = "";
